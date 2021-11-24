@@ -156,7 +156,7 @@ As a result of the work you should provide a report with completed tasks. Each p
 - Add screenshot with changed hostname to the report.
 
 ## Part 6. Installing and configuring the time service
-`-` Although we have the correct time now, it may not always be that way. To avoid having to set it every time yourself, there are [time sync services](materials/time_management.md)(materials/time_management.md).
+`-` Although we have the correct time now, it may not always be that way. To avoid having to set it every time yourself, there are time sync services.
 
 **== Task ==**
 
