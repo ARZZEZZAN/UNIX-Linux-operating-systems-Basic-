@@ -31,7 +31,7 @@ The russian version of the task can be found in the repository.
 Developer’s note: \
 For full immersion, you can play your favorite jazz song while reading the assignment.
 
-Planet Earth, USA, California, Compton, Seb's Jazz Club, May 24, 1996.
+Planet Earth, USA, California, Compton, Seb's Jazz Club, nowadays.
 
 `-` Well, Sebastian, you didn't expect me to believe that you called me just to sit and relax, did you? You're not the type to write to an old comrade in the middle of the work week if you have nothing to say.
 
@@ -79,7 +79,7 @@ Planet Earth, USA, California, Compton, Seb's Jazz Club, May 24, 1996.
 
 `-` _VirtualBox_ is a virtualisation software product, i.e. a tool for creating virtual machines.
 
-\> *You wanted to share some more useful information later, so you created a [materials](materials)(/materials) folder on Sebastian's laptop with useful information.*
+\> *You wanted to share some more useful information later, so you created a materials folder on Sebastian's laptop with useful information.*
 
 ## Chapter III
 As a result of the work you should provide a report with completed tasks. Each part of the task describe what should be added to the report once it has been completed. This can be screenshots, some data, etc.
@@ -118,7 +118,7 @@ As a result of the work you should provide a report with completed tasks. Each p
 ## Part 3. Setting up the OS network
 `-` In our world, you can't go far without the Internet. However, since we want to train you for the role of a system administrator, I'll show you a little more than just setting up a network.
 
-`-` Before we begin, I suggest reading about [network interfaces and DHCP](materials/OS_network_configure.md)(materials/OS_network_configure.md).
+`-` Before we begin, I suggest reading about network interfaces and DHCP.
 
 **== Task ==**
 
@@ -202,7 +202,7 @@ Do you want to learn how to work in VIM?
     - Of each editor with commands entered to replace a word with another.
 
 ## Part 8. Installing and basic setup of the **SSHD** service
-`-` It's convenient to have access from one computer to another over a network, isn't it? But to make it not only convenient, but also safe, you should use [SSH service](materials/SSHD.md)(materials/SSHD.md).
+`-` It's convenient to have access from one computer to another over a network, isn't it? But to make it not only convenient, but also safe, you should use SSH service.
 
 **== Task ==**
 
@@ -220,7 +220,7 @@ Do you want to learn how to work in VIM?
 - Explain the meaning of the -tan keys, the value of each output column, the value 0.0.0.0. in the report.
 
 ## Part 9. Installing and using the **top**, **htop** utilities
-`-` If I were asked what useful things [**top** and **htop**utilities](materials/top_and_htop.md)(materials/top_and_htop.md) do, I would answer in one word: everything.
+`-` If I were asked what useful things **top** and **htop** utilities do, I would answer in one word: everything.
 
 **== Task ==**
 
@@ -243,7 +243,7 @@ Do you want to learn how to work in VIM?
     - with hostname, clock and uptime output added
 
 ## Part 10. Using the **fdisk** utility
-`-` Now let's figure out how to get information about your hard disk. Especially for you I've put together a couple of examples of how to use the [fdisk utility](materials/fdisk.md)(materials/fdisk.md).
+`-` Now let's figure out how to get information about your hard disk. Especially for you I've put together a couple of examples of how to use the fdisk utility.
 
 **== Task ==**
 
@@ -251,7 +251,7 @@ Do you want to learn how to work in VIM?
 - In the report write the name of the hard disk, its capacity and number of sectors, and also the swap size.
 
 ## Part 11. Using the **df** utility
-`-` We got the information about the hard disk, but often it is much more interesting to get information about the disk space, which can be obtained with the [df utility](materials/df.md)(materials/df.md).
+`-` We got the information about the hard disk, but often it is much more interesting to get information about the disk space, which can be obtained with the df utility.
 
 **== Task ==**
 
@@ -272,7 +272,7 @@ Do you want to learn how to work in VIM?
 - Determine and write the file system type for the partition in the report.
 
 ## Part 12. Using the **du** utility
-`-` df is not the only way to get information about disk space. I'll tell you about [another one](materials/du.md)(materials/du.md).
+`-` df is not the only way to get information about disk space. I'll tell you about another one.
 
 **== Task ==**
 
@@ -282,7 +282,7 @@ Do you want to learn how to work in VIM?
 - Add screenshots with the output of all used commands to the report.
 
 ## Part 13. Installing and using the **ncdu** utility
-`-` You probably didn’t like much the format in which the du command outputs information. I understand you perfectly. So now we'll take a look at its [improved version](materials/ncdu.md)(materials/ncdu.md).
+`-` You probably didn’t like much the format in which the du command outputs information. I understand you perfectly. So now we'll take a look at its improved version.
 
 **== Task ==**
 
@@ -292,7 +292,7 @@ Do you want to learn how to work in VIM?
 - Add screenshots of the used commands to the report.
 
 ## Part 14. Working with system logs
-`-` A system administrator sometimes needs to review events which happened in a system in the recent past. Linux has [system logs](materials/logs.md)(materials/logs.md) for that.
+`-` A system administrator sometimes needs to review events which happened in a system in the recent past. Linux has system logs for that.
 
 **== Task ==**
 
@@ -306,7 +306,7 @@ Do you want to learn how to work in VIM?
 - Add a screenshot of the service restart message to the report (search for it in the logs).
 
 ## Part 15. Using the **CRON** job scheduler
-`-` Phew, we finally got to the last part of my long narrative. I will now show you the [program](materials/CRON.md)(materials/CRON.md), which, among other things, noticeably simplifies the periodic invocation of other programs.
+`-` Phew, we finally got to the last part of my long narrative. I will now show you the program, which, among other things, noticeably simplifies the periodic invocation of other programs.
 
 **== Task ==**
 
