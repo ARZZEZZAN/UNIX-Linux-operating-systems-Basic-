@@ -5,6 +5,7 @@ Linux system installation and updates. Administration basics.
 The russian version of the task can be found in the repository.
 
 ## Contents
+
 1. [Chapter I](#chapter-i)
 2. [Chapter II](#chapter-ii) \
    2.1. [Linux](#Linux)  
@@ -27,7 +28,9 @@ The russian version of the task can be found in the repository.
    3.14 [Working with system logs](#part-14-working-with-system-logs)     
    3.15 [Using the CRON job scheduler](#part-15-using-the-cron-job-scheduler)
 
+
 ## Chapter I
+
 Developer’s note: \
 For full immersion, you can play your favorite jazz song while reading the assignment.
 
@@ -51,8 +54,11 @@ Planet Earth, USA, California, Compton, Seb's Jazz Club, nowadays.
 
 \> *While Sebastian takes his laptop out and turns it on, you decide to share a little historical background.*
 
+
 ## Chapter II
+
 ### Linux
+
 `-` The history of Linux goes back to 1991 when a Finnish graduate programmer Linus Torvalds began to work on his own operating system kernel.
 
 `-` He put his work on a public server and it became a milestone in the history of Linux. First dozens, then hundreds and thousands of developers supported his project, and that’s how a complete operating system was born.
@@ -64,6 +70,7 @@ Planet Earth, USA, California, Compton, Seb's Jazz Club, nowadays.
 \> *The waitress brings you the drinks you ordered, the musicians start playing again*
 
 ### Administration
+
 `-` Administration is, without going into too much detail, the support and improvement of all computer and office equipment, peripheral devices, network connectivity, etc. When administering Linux, most of the work is done in the terminal, so it's better to start with basic utilities.
 
 \> *At this point Sebastian's laptop boots up and you see a horrible picture: it doesn't even have the right operating system...*
@@ -71,6 +78,7 @@ Planet Earth, USA, California, Compton, Seb's Jazz Club, nowadays.
 \> *In order not to reinstall Sebastian's operating system, you decide to use a virtual machine*
 
 ### Virtual machines
+
 `-` A virtual machine (VM) is just like a physical computer, it has a CPU, memory, disks for storing files, and can connect to the Internet if necessary. The only difference is that the components of your computer (the hardware) are tangible, while virtual machines exist only as code.
 
 `-` To put it simply, it's a virtual computer on which you can install an operating system and all the associated software, with no changes to your main operating system.
@@ -81,7 +89,9 @@ Planet Earth, USA, California, Compton, Seb's Jazz Club, nowadays.
 
 \> *You wanted to share some more useful information later, so you created a materials folder on Sebastian's laptop with useful information.*
 
+
 ## Chapter III
+
 As a result of the work you should provide a report with completed tasks. Each part of the task describe what should be added to the report once it has been completed. This can be screenshots, some data, etc.
 
 - A report with a .md extension must be uploaded to the repository, in the src folder.
@@ -91,6 +101,7 @@ As a result of the work you should provide a report with completed tasks. Each p
 - All screenshots must be cropped so that only the relevant part of the screen is shown.
 
 ## Part 1. Installation of the OS
+
 `-` Well, let's finally get this Linux installed,'' -- Sebastian moves the laptop closer to you.
 
 `-` Yes, it's about time. I saw a great instruction on *Linuxconfig* to install the version we need.
@@ -98,24 +109,25 @@ As a result of the work you should provide a report with completed tasks. Each p
 **== Task ==**
 
 ##### Install **Ubuntu 20.04 Server LTS** without GUI. (Use VirtualBox).
-
-- There should be no GUI (the Ubuntu version must contain the word "Server". To find out the Ubuntu version, run the command \ `cat/etc/issue.`
-
-- Add a screenshot to the report to prove that there is no GUI.
+- There should be no GUI.
+- Check Ubuntu version by running the command \
+  `cat /etc/issue`
+- Add a screenshot of the command output to the report.
 
 ## Part 2. Creating a user
+
 `-` An installed system is a good thing, but what if someone else uses it? I'll teach you how to create a new user.
 
 **== Task ==**
 
 ##### Create a user other than the one created during installation. The user must have permission to read logs from the /var/log folder.
-
 - Add a screenshot of command call to create user.
 - The new user must be in the output of the command: \
   `cat /etc/passwd`
 - Add a screenshot of the command output.
 
 ## Part 3. Setting up the OS network
+
 `-` In our world, you can't go far without the Internet. However, since we want to train you for the role of a system administrator, I'll show you a little more than just setting up a network.
 
 `-` Before we begin, I suggest reading about network interfaces and DHCP.
@@ -137,6 +149,7 @@ As a result of the work you should provide a report with completed tasks. Each p
 - Successfully ping 1.1.1.1 and ya.ru remote hosts and add a screenshot of the output command to the report.
 
 ## Part 4. OS Update
+
 `-` You're probably wondering, "Is the system ready now?" It's not ready at all! We haven't updated it to the latest version yet.
 
 **== Task ==**
@@ -146,6 +159,7 @@ As a result of the work you should provide a report with completed tasks. Each p
 - Add a screenshot of this message to the report.
 
 ## Part 5. Using the **sudo** command
+
 `-` How often were you told as a child that you forgot to say the "magic" word? One of those "magic" words was "please". Linux has its counterpart – _sudo_. The system won't perform some operations until it hears the "magic" word.
 
 **== Task ==**
@@ -156,6 +170,7 @@ As a result of the work you should provide a report with completed tasks. Each p
 - Add screenshot with changed hostname to the report.
 
 ## Part 6. Installing and configuring the time service
+
 `-` Although we have the correct time now, it may not always be that way. To avoid having to set it every time yourself, there are time sync services.
 
 **== Task ==**
@@ -167,6 +182,7 @@ As a result of the work you should provide a report with completed tasks. Each p
 - Add screenshots of the correct time and command output to the report.
 
 ## Part 7. Installing and using text editors
+
 `-` I think we're ready to move on to one of the scariest parts. You’re pointing toward the Netherlands on the map of the world hanging on the wall.
 
 `-` Here, Bram Moolenaar has unraveled the mysteries of harmony and inner concentration. \
@@ -202,6 +218,7 @@ Do you want to learn how to work in VIM?
     - Of each editor with commands entered to replace a word with another.
 
 ## Part 8. Installing and basic setup of the **SSHD** service
+
 `-` It's convenient to have access from one computer to another over a network, isn't it? But to make it not only convenient, but also safe, you should use SSH service.
 
 **== Task ==**
@@ -220,12 +237,12 @@ Do you want to learn how to work in VIM?
 - Explain the meaning of the -tan keys, the value of each output column, the value 0.0.0.0. in the report.
 
 ## Part 9. Installing and using the **top**, **htop** utilities
+
 `-` If I were asked what useful things **top** and **htop** utilities do, I would answer in one word: everything.
 
 **== Task ==**
 
 ##### Install and run the top and htop utilities.
-
 - From the output of the top command determine and write in the report:
     - uptime
     - number of authorised users
@@ -235,7 +252,6 @@ Do you want to learn how to work in VIM?
     - memory load
     - pid of the process with the highest memory usage
     - pid of the process taking the most CPU time
-
 - Add a screenshot of the htop command output to the report:
     - sorted by PID, PERCENT_CPU, PERSENT_MEM, TIME
     - filtered for sshd process
@@ -243,6 +259,7 @@ Do you want to learn how to work in VIM?
     - with hostname, clock and uptime output added
 
 ## Part 10. Using the **fdisk** utility
+
 `-` Now let's figure out how to get information about your hard disk. Especially for you I've put together a couple of examples of how to use the fdisk utility.
 
 **== Task ==**
@@ -251,6 +268,7 @@ Do you want to learn how to work in VIM?
 - In the report write the name of the hard disk, its capacity and number of sectors, and also the swap size.
 
 ## Part 11. Using the **df** utility
+
 `-` We got the information about the hard disk, but often it is much more interesting to get information about the disk space, which can be obtained with the df utility.
 
 **== Task ==**
@@ -272,6 +290,7 @@ Do you want to learn how to work in VIM?
 - Determine and write the file system type for the partition in the report.
 
 ## Part 12. Using the **du** utility
+
 `-` df is not the only way to get information about disk space. I'll tell you about another one.
 
 **== Task ==**
@@ -282,6 +301,7 @@ Do you want to learn how to work in VIM?
 - Add screenshots with the output of all used commands to the report.
 
 ## Part 13. Installing and using the **ncdu** utility
+
 `-` You probably didn’t like much the format in which the du command outputs information. I understand you perfectly. So now we'll take a look at its improved version.
 
 **== Task ==**
@@ -292,6 +312,7 @@ Do you want to learn how to work in VIM?
 - Add screenshots of the used commands to the report.
 
 ## Part 14. Working with system logs
+
 `-` A system administrator sometimes needs to review events which happened in a system in the recent past. Linux has system logs for that.
 
 **== Task ==**
@@ -300,12 +321,12 @@ Do you want to learn how to work in VIM?
 ##### 1. /var/log/dmesg
 ##### 2. /var/log/syslog
 ##### 3. /var/log/authlog
-
 - Write the last successful login time, user name and login method in the report.
 - Restart SSHd service.
 - Add a screenshot of the service restart message to the report (search for it in the logs).
 
 ## Part 15. Using the **CRON** job scheduler
+
 `-` Phew, we finally got to the last part of my long narrative. I will now show you the program, which, among other things, noticeably simplifies the periodic invocation of other programs.
 
 **== Task ==**
