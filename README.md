@@ -164,9 +164,9 @@ As a result of the work you should provide a report with completed tasks. Each p
 
 **== Task ==**
 
-##### Allow user created in [Part 2](#Creating a user) to execute sudo command.
+##### Allow user created in [Part 2](#part-2-creating-a-user) to execute sudo command.
 - In the report explain the *true* purpose of sudo command (don’t write about the fact that this word is "magic" one).
-- Change OS hostname in the user name created in [Part 2](#Creating a user) (using sudo).
+- Change OS hostname in the user name created in [Part 2](#part-2-creating-a-user) (using sudo).
 - Add screenshot with changed hostname to the report.
 
 ## Part 6. Installing and configuring the time service
@@ -308,7 +308,8 @@ Do you want to learn how to work in VIM?
 
 ##### Install the ncdu utility.
 ##### Output the size of the /home, /var, /var/log folders.
-- The size should be the same as in [Part 12](#part-12-using-the-du-utility).
+- The size should be approximately the same as in [Part 12](#part-12-using-the-du-utility).
+
 - Add screenshots of the used commands to the report.
 
 ## Part 14. Working with system logs
