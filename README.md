@@ -31,6 +31,8 @@ The russian version of the task can be found in the repository.
 
 ## Chapter I
 
+![linux](misc/images/linux.png)
+
 Developer’s note: \
 For full immersion, you can play your favorite jazz song while reading the assignment.
 
@@ -231,7 +233,7 @@ Do you want to learn how to work in VIM?
 ##### Reboot the system.
 - Describe in the report what you have done to complete all five points (you can do this in text or with screenshots).
 - The output of the netstat -tan command should contain \
-  `tcp 0 0.0.0.0:22 0.0.0.0:* LISTEN` \
+  `tcp 0 0.0.0.0:2022 0.0.0.0:* LISTEN` \
   (if there is no netstat command, it needs to be installed)
 - Add a screenshot of the command output to the report.
 - Explain the meaning of the -tan keys, the value of each output column, the value 0.0.0.0. in the report.
