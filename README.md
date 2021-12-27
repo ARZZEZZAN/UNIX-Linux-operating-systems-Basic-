@@ -8,8 +8,8 @@ The russian version of the task can be found in the repository.
 
 1. [Chapter I](#chapter-i)
 2. [Chapter II](#chapter-ii) \
-   2.1. [Linux](#Linux)  
-   2.2. [Administration](#Administration)  
+   2.1. [Linux](#linux)  
+   2.2. [Administration](#administration)  
    2.3. [Virtual machines](#virtual-machines)
 3. [Chapter III](#chapter-iii) \
    3.1 [Installation of the OS](#part-1-installation-of-the-os)  
@@ -334,7 +334,7 @@ Do you want to learn how to work in VIM?
 
 **== Task ==**
 
-##### Using the job scheduler, run the uptime command in 2 minutes.
+##### Using the job scheduler, run the uptime command in every 2 minutes.
 - Find lines in the system logs (at least two within a given time range) about the execution.
 - Display a list of current jobs for CRON.
 - Add screenshots of the execution lines and the list of current tasks to the report.
