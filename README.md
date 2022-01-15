@@ -156,8 +156,8 @@ As a result of the work you should provide a report with completed tasks. Each p
 
 **== Task ==**
 
-##### Update the system to the latest version
-- After updating the system, if you enter the update command again, a message should appear saying there are no updates.
+##### Update the system packages to the latest version
+- After updating the system packages, if you enter the update command again, a message should appear saying there are no updates.
 - Add a screenshot of this message to the report.
 
 ## Part 5. Using the **sudo** command
