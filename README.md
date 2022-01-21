@@ -136,7 +136,7 @@ As a result of the work you should provide a report with completed tasks. Each p
 
 **== Task ==**
 
-##### Set the machine name as user_1 (user name from [Part 2](#part-2-creating-a-user))
+##### Set the machine name as user-1
 ##### Set the time zone corresponding to your current location.
 
 ##### Output the names of the network interfaces using a console command.
