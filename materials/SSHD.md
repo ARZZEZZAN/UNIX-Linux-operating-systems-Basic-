@@ -10,7 +10,7 @@ The daemon settings are stored in /etc/ssh/sshd_config file.
 
 First of all, you should pay attention to the following parameters: Port, AddressFamily, ListenAddress. \
 The first one globally sets the port number through which the connection will work and if you leave it the default one, i.e. 22, there is a high probability that it will be scanned by robots too often. \
-<img src="misc/images/ssh.jpg" alt="ssh" width="500"/> \
+<img src="../misc/images/ssh.jpg" alt="ssh" width="500"/> \
 *Note:* To set the parameter for activation, you need to uncomment the corresponding line - remove the "#" symbol at the beginning.
 
 The second parameter specifies the IP addresses family used - IPv4 and IPv6.

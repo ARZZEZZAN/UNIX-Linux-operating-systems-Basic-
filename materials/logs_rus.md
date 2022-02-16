@@ -16,9 +16,9 @@
 
 Рассмотрим некоторые из них на примере лога /var/log/dmesg:
 - less -- просмотр логов с возможностью прокрутки: \
-  <img src="misc/images/log1.png" alt="log1" width="500"/>
+  <img src="../misc/images/log1.png" alt="log1" width="500"/>
 - tail -- просмотр логов в реальном времени
 - cat -- открытие лог файла
 - head -- просмотр первых строки лога
 - grep -i error -- вывод только ошибок из лога: \
-  <img src="misc/images/log2.png" alt="log2" width="500"/>
+  <img src="../misc/images/log2.png" alt="log2" width="500"/>
