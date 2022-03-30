@@ -258,7 +258,7 @@ Do you want to learn how to work in VIM?
     - pid of the process with the highest memory usage
     - pid of the process taking the most CPU time
 - Add a screenshot of the htop command output to the report:
-    - sorted by PID, PERCENT_CPU, PERSENT_MEM, TIME
+    - sorted by PID, PERCENT_CPU, PERCENT_MEM, TIME
     - filtered for sshd process
     - with the syslog process found by searching
     - with hostname, clock and uptime output added
@@ -326,7 +326,7 @@ Do you want to learn how to work in VIM?
 ##### Open for viewing:
 ##### 1. /var/log/dmesg
 ##### 2. /var/log/syslog
-##### 3. /var/log/authlog
+##### 3. /var/log/auth.log
 - Write the last successful login time, user name and login method in the report.
 - Restart SSHd service.
 - Add a screenshot of the service restart message to the report (search for it in the logs).
