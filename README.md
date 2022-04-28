@@ -36,8 +36,8 @@ The russian version of the task can be found in the repository.
 
 ![linux](misc/images/linux.png)
 
-Developer’s note: \
-For full immersion, you can play your favorite jazz song while reading the assignment.
+>Developer’s note: \
+>For full immersion, you can play your favorite jazz song while reading the assignment.
 
 Planet Earth, USA, California, Compton, Seb's Jazz Club, nowadays.
 
