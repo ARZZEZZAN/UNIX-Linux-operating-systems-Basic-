@@ -183,7 +183,7 @@ As a result of the work you should provide a report with completed tasks. Each p
 ##### Set up the automatic time synchronisation service.
 - Output the time of the time zone in which you are currently located.
 - The output of the following command must contain `NTPSynchronized=yes`: \
-  `timedatectl status`
+  `timedatectl show`
 - Add screenshots of the correct time and command output to the report.
 
 ## Part 7. Installing and using text editors
