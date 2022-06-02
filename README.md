@@ -171,7 +171,7 @@ As a result of the work you should provide a report with completed tasks. Each p
 
 ##### Allow user created in [Part 2](#part-2-creating-a-user) to execute sudo command.
 - In the report explain the *true* purpose of sudo command (don’t write about the fact that this word is "magic" one).
-- Change OS hostname in the user name created in [Part 2](#part-2-creating-a-user) (using sudo).
+- Change the OS hostname via the user created in [Part 2](#part-2-creating-a-user) (using sudo).
 - Add screenshot with changed hostname to the report.
 
 ## Part 6. Installing and configuring the time service
