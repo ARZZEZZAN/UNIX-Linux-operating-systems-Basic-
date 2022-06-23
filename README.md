@@ -125,7 +125,7 @@ As a result of the work you should provide a report with completed tasks. Each p
 
 **== Task ==**
 
-##### Create a user other than the one created during installation. The user must have permission to read logs from the /var/log folder.
+##### Create a user other than the one created during installation. The user must be added to `adm` group.
 - Add a screenshot of command call to create user.
 - The new user must be in the output of the command: \
   `cat /etc/passwd`
@@ -151,7 +151,7 @@ As a result of the work you should provide a report with completed tasks. Each p
 
 ##### Reboot the virtual machine. Make sure that the static network settings (ip, gw, dns) correspond to those set in the previous point.
 - Describe in the report what you have done to complete all seven points (you can do it in text or with screenshots).
-- Successfully ping 1.1.1.1 and ya.ru remote hosts and add a screenshot of the output command to the report.
+- Successfully ping 1.1.1.1 and ya.ru remote hosts and add a screenshot of the output command to the report. There should be "0% packet loss" phrase in command output.
 
 ## Part 4. OS Update
 
