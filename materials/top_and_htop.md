@@ -6,7 +6,7 @@ Here are some examples of working with the top command:
   <img src="../misc/images/top1.png" alt="top1" width="500"/>
 - If you only want to display processes that use CPU resources, use the i command: \
   <img src="../misc/images/top2.png" alt="top2" width="500"/>
-- To highlight the field currently being sorted, press y. The entire column will then be highlighted in bold: \
+- To highlight the field currently being sorted, press x. The entire column will then be highlighted in bold: \
   <img src="../misc/images/top3.png" alt="top3" width="500"/>
 - m -- command to turn off or switch the memory information display mode
 - F -- command to set the process information fields
