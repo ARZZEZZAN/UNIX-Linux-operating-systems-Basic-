@@ -1,8 +1,5 @@
 # UNIX/Linux operating systems (Basic).
 
-> При старте работы над проектом просим вас постараться хронометрировать время работы над проектом.
-> По завершении работы над проектом просим вас ответить на два вопроса [в этом опросе](https://forms.gle/kheFQ1M3D27UeyeC9)
-
 Linux system installation and updates. Administration basics.
 
 The russian version of the task can be found in the repository.
