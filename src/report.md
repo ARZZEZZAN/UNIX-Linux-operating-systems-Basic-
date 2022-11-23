@@ -20,9 +20,6 @@
 ![part2](./part2/part2.2.png)
 ![part2](./part2/part2.3.png)
 
-3.  скриншот с выводом команды.
-  ![cat /etc/passwd | grep lcoon2](user_creation_2.png)
-  
 ## Задание 3
 
 1. Задать название машины вида user-1
